@@ -37,6 +37,6 @@ def compareTo(s1, s2):
         return -1
     elif s1[0] > s2[0]:
         return 1
-    
-    # Recursive case: move to next characters
-    return compareTo(s1[1:], s2[1:])
+    else:
+        # Recursive
+        return compareTo(s1[1:], s2[1:])
